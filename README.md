@@ -1,3 +1,5 @@
+![Status](https://img.shields.io/badge/Status-Stable%20Release-green)
+
 # Migration of Init Power sites to Jekyll Project - 27/10/2025
 
 ** HOW TO MAKE CHANGES **
