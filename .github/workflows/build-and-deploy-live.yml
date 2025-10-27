@@ -1,0 +1,35 @@
+name: Build Jekyll & Deploy to Firebase (live)
+
+on:
+ push:
+   branches:
+     - main
+
+jobs:
+ build-and-deploy:
+   runs-on: ubuntu-latest
+
+   steps:
+   - name: Checkout repo
+     uses: actions/checkout@v4
+
+   - name: Setup Ruby
+     uses: ruby/setup-ruby@v1
+     with:
+       ruby-version: '3.2'  # Match your Jekyll version
+
+   - name: Install dependencies
+     run: |
+       gem install bundler
+       bundle install
+
+   - name: Build Jekyll site
+     run: bundle exec jekyll build
+
+   - name: Deploy to Firebase beta channel
+     uses: FirebaseExtended/action-hosting-deploy@v0
+     with:
+       repoToken: "${{ secrets.GITHUB_TOKEN }}"
+       firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_INIT_POWER }}"
+       projectId: init-power
+       channelID: live
