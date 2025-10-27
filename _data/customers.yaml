@@ -1,0 +1,29 @@
+- name: Aquabattery
+  about: De waterbatterij van de start-up AquaBattery is de meest milieuvriendelijke batterij die je kunt bedenken. De batterij gebruikt geen zuren, chemicaliën of metalen, maar alleen zout en zoet water en een actief membraan dat alleen zoutionen doorlaat, en geen water. 
+  case: Het idee komt van de demonstratie opstelling op de Afsluitdijk voor de productie van elektriciteit uit de combinatie van zeewater en zoet water. De waterbatterij gebruikt het omgekeerde procedé (elektrodialyse).
+  logo: assets/images/logo-AB.svg
+  url: https://aquabattery.com/
+
+- name: Equinox Ocean Turbines
+  about: Equinox wil energie halen uit de continue oceaanstromen die zich bevinden op een aantal specifieke plekken op onze planeet. het potentieel van deze stromen is gigantisch. 
+  case: Equinox ontwikkelt daarvoor een onderwater turbine die zich kenmerkt door haar unieke aandrijving en materiaalkeuzes.
+  logo: assets/images/logo-equinox.jpg
+  url:  https://equinoxoceanturbines.com/
+
+- name: DOPS Recycling Technologies
+  about: DOPS ontwikkelt en verkoopt technologie genaamd Direct Carbon Immobalization. 
+  case: DOPS is bezig met de opschaling van haar technologie om een volwaardige fabriek te bouwen die uit gemengd afval en biomassa waardevolle grondstoffen wint.
+  logo: assets/images/logo-dops.svg
+  url:  https://dops-rt.com/
+
+- name: Liion Power
+  about: Liion Power is een Amsterdamse start-up die slimme oplaad technologie ontwikkelt om de levensduur van lithium-ion batterijen draagbare electronica te verlengen.
+  case: Het idee is om middels een het plug-and-play product Leo het laad process voor de batterij te verbeteren en hierdoor minder verspilling van electronische apparaten tegen te gaan. Liion Power en Leo hebben verschillende awards gewonnen waaronder de prestigueize CES Innovation Award 2025.
+  logo: assets/images/logo-liion.avif
+  url:  https://liionpower.tech/
+
+- name: Weco
+  about: Weco, de Wave Energy Collective, is een Nederlandse startup uit Den Haag die zich richt op het opwekken van duurzame energie uit zeegolven. Het bedrijf is in 2023 opgericht door Cas van de Voort en Luc Hogervorst, die vanuit hun achtergrond in werktuigbouwkunde een efficiënter systeem wilden ontwikkelen.
+  case: In tegenstelling tot traditionele systemen die de verticale (op-en-neergaande) beweging van golven benutten, gebruikt Weco de horizontale (heen-en-weergaande) golfbeweging. Het systeem bestaat uit een lichte, drijvende cilinder die haaks op de golven ligt en daardoor efficiënter energie kan opwekken.
+  logo: assets/images/logo-weco.png
+  url:  https://www.wecoenergy.com/

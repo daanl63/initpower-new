@@ -1,0 +1,27 @@
+---
+title: Portfolio
+---
+
+  {% include hero.html caption='Onze Portfolio' message='Ontdek welke innovatieve Nederlandse bedrijven wij ondersteunen om te groeien om uiteindelijk de impact te maken voor onze maatschappij.'%}
+  
+<section class="features">
+  <div class="container">
+    <div class="feature">
+      {% for customer in site.data.customers %}
+      <div class="case-section" {%if forloop.last%} style="border-bottom: 0px;" {%endif%}>
+        <div class="case-logo">
+          <img src="{{customer.logo}}" alt="{{customer.name}} logo" />
+        </div>
+        <div class="case-content">
+          <h2><a href="{{customer.url}}">{{customer.name}}</a></h2>
+          <p>{{customer.about}}</a></p>
+          <br/>
+          <p>{{customer.case}}</p>
+        </div>
+      </div>  
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+

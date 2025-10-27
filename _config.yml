@@ -1,0 +1,17 @@
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+timezone: "Europe/Amsterdam"
+dob: "2022"
+company: "Init Power B.V."
+coc-number: "87391597"
+address:  "Lage Zand 514, 2511 GT 's-Gravenhage"
+deployurl: "https://init-power.com/"
+welcome: "Init Power"
+welcome-alt: "Bezoek Init Power"
+linkedinurl:  "https://www.linkedin.com/company/init-power"
+email: "info@init-power.com"
+label: "IP"

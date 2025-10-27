@@ -1,0 +1,31 @@
+pt:
+  - name: Frank van Beek
+    role: CEO
+    bio:  Frank heeft na een lange Shell carriére zich gericht op het investeren in startende ondernemingen op het gebied van clean energy. Frank wil altijd inhoudelijk en technisch begrijpen wat de unieke propositie is van de onderneming. Frank is afgestudeerd in de mijnbouwkunde aan de TU Delft.
+    img:  Frank.jpeg
+
+  - name: Klaas Esselink
+    role: COO
+    bio:  Klaas heeft eveneens een lange kleurrijke Shell carriére gehad en hij is tevens bestuurder van de energie corporatie Haagse Stroom. Klaas is afgestudeerd in de Informatica aan de Rijksuniversiteit Groningen. Hij is tevens gepromoveerd op dit gebied.
+    img:  Klaas.png
+
+  - name: Daan Loyens
+    role: CFO
+    bio:  Daan heeft ook een Shell achtergrond en is een ervaren ondernemer en investeerder met meerdere exits. Daan is afgestudeerd in de Informatica aan de TU Eindhoven. Daar is hij ook gepromoveerd en in de Coronaperiode heeft hij zijn Executive Master behaald in Cybersecurity & Governance aan de Universiteit van Leiden.
+    img:  WWW Daan L - 380.png
+
+ext:
+  - name: Raghnild
+    role: Supporter
+    bio:  Raghnild is onze sportheldin.
+    
+  - name: Elizabeth
+    role: Supporter
+    bio:  Elizabeth houdt ons allen fit en zorgt voor de goede sfeer.
+    
+  - name: Elena
+    role: Supporter
+    bio:  Elena zorgt voor gezond eten en lekkere hapjes.
+    
+    
+

@@ -1,0 +1,16 @@
+- name: Thuis
+  link: index.html
+- name: Portfolio
+  link: portfolio.html
+- name: Team
+  link: team.html
+- name: Werkwijze
+  link: werkwijze.html
+  hidden: false
+- name: Partners
+  link: partners.html
+  hidden: true
+- name: Contact
+  link: contact.html
+  
+  
