@@ -43,7 +43,7 @@
   
   header h1 {
     font-size: 24px;
-    color: #0078D4;
+    color: #e4a701;
   }
   
   /* Hero Section */
@@ -192,7 +192,7 @@
   
   .team-member h3 {
     margin-bottom: 10px;
-    color: #05c3dd;
+    color: #e4a701;
   }
 
   .contact-info {
@@ -203,10 +203,10 @@
   }
   .contact-details, .map-section {
     flex: 1;
-    min-width: 300px;
+    min-width: 100%;
   }
   .contact-details h2, .map-section h2 {
-    color: #05c3dd;
+    color: #e4a701;
   }
   .contact-details p {
     font-size: 16px;
@@ -215,7 +215,7 @@
   }
   .map-section iframe {
     width: 100%;
-    height: 300px;
+    height: auto;
     border: none;
     border-radius: 12px;
   }
@@ -224,7 +224,7 @@
   }
   .vcard-download a {
     display: inline-block;
-    background-color: #05c3dd;
+    background-color: #e4a701;
     color: white;
     padding: 10px 20px;
     border-radius: 6px;
@@ -259,7 +259,7 @@
     min-width: 300px;
   }
   .case-content h2 {
-    color: #05c3dd;
+    color: #e4a701;
   }
 
 /* adaptive navigation */
