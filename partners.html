@@ -18,7 +18,7 @@ title: Onze partners
     <div class="team-grid">
       
     {% for member in site.data.partner[team.key] %} 
-    {% if item.hidden != true %}
+    {% if member.hidden != true %}
     <div class="team-member">
    
     {% if member.img %}
