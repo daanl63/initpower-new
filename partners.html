@@ -18,6 +18,7 @@ title: Onze partners
     <div class="team-grid">
       
     {% for member in site.data.partner[team.key] %} 
+    {% if item.hidden != true %}
     <div class="team-member">
    
     {% if member.img %}
@@ -38,6 +39,7 @@ title: Onze partners
     {% endif %}
       
     </div>
+    {% endif %}
     {% endfor %}
         
     </div>
