@@ -18,6 +18,7 @@ ext:
   - name: Raghnild
     role: Supporter
     bio:  Raghnild is onze sportheldin.
+    hidden: true
     
   - name: Elizabeth
     role: Supporter
