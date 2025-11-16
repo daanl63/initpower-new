@@ -10,10 +10,9 @@ title: Portfolio
       {% for customer in site.data.customers %}
       <div class="case-section" {%if forloop.last%} style="border-bottom: 0px;" {%endif%}>
         <div class="case-logo">
-          <img src="{{customer.logo}}" alt="{{customer.name}} logo" />
+           <a href="{{customer.url}}"><img src="{{customer.logo}}" alt="{{customer.name}} logo" /></a>
         </div>
         <div class="case-content">
-          <h2><a href="{{customer.url}}">{{customer.name}}</a></h2>
           <p>{{customer.about}}</a></p>
           <br/>
           <p>{{customer.case}}</p>
